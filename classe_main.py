@@ -25,3 +25,9 @@ print(carro2.quantidade_rodas)
 carro2.drive()
 carro2.buzina()
 carro2.show_qtde_rodas()
+
+print('qtde rodas')
+print('qtde rodas')
+# nao precisa instanciar um objeto para acessar esse atributo
+print(Car.quantidade_rodas)
+print('qtde rodas')
