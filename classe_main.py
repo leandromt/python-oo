@@ -7,6 +7,7 @@ print(carro.fabricante)
 print(carro.ano)
 print(carro.km)
 print(carro.quantidade_rodas)
+carro.drive()
 
 
 print()
@@ -19,3 +20,4 @@ print(carro2.fabricante)
 print(carro2.ano)
 print(carro2.km)
 print(carro2.quantidade_rodas)
+carro2.drive()

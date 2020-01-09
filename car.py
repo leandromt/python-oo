@@ -6,7 +6,12 @@ class Car:
 
     # metodo construtor e variaveis do objeto
     def __init__(self, cor, fabricante, ano, km):
+        # atributos de instancia
         self.cor = cor
         self.fabricante = fabricante
         self.ano = ano
         self.km = km
+
+    # metodo de instancia
+    def drive(self):
+        print(f'Começou a dirigir o {self.fabricante}')
